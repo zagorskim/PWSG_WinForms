@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WinFormsApp1\WinFormsApp1.csproj" />
+    <ProjectReference Include="..\WinFormsCalendar\WinFormsCalendar.csproj" />
+    <ProjectReference Include="..\WinFormsGallery\WinFormsGallery.csproj" />
+  </ItemGroup>
+
+</Project>
